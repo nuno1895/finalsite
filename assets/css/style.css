@@ -1,0 +1,130 @@
+/* Testing if refs properly*/
+ 
+
+/***************Menu area*************/
+
+nav {
+	background-color: #212121;
+	color: black;
+}
+.nav-wrapper #logo {
+	font-weight: 400;
+	font-style: italic;
+	font-size: 2.3em;
+}
+
+#name h1, h2 {
+	font-family: 'Taviraj', serif;
+	font-weight: 600;
+	font-size: 2.5em;
+}
+
+.nav-wrapper {
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.nav-wrapper ul a {
+	font-size: 1.3em;
+	font-style: italic;
+}
+
+.nav-wrapper ul a:hover {
+	background-color: white;
+	color:black;
+}
+
+.parallax-container {
+   height: 90%;
+}
+
+.intro {
+	margin-top: 12%;
+	color: white;
+}
+
+.fa {
+	color: black;
+}
+
+.fa:hover{
+	color: white;
+}
+
+
+
+
+
+/**********Main Page**************/
+
+
+
+#skills {
+	font-size: 7rem;
+	text-align: center;
+	margin: auto;
+}
+
+#resumeBox {
+	text-align: center;
+	margin-top: 80%;
+	opacity: 0.7;
+	font-style: italic;
+}
+
+.btn {
+	background-color: #ff7043;
+	border-color: black;
+	color: black;
+}
+
+.btn:hover {
+	background-color: #ffab91;
+}
+
+
+#contactBox {
+	text-align:center;
+	margin-top: 13%;
+	opacity: 0.7;
+}
+
+#spanContact {
+	font-size: 1.8em;
+	font-weight: bold;
+}
+
+#spanResume {
+	font-size: 1.8em;
+	font-weight: bold;
+}
+
+#contactBox .fa {
+	color:green;
+}
+
+#contactBox .fa:hover {
+	color:lightgreen;
+}
+
+/*************Footer*******************/
+
+#footerBot {
+	background-color: #212121;
+	color: black;
+	text-align: center;
+}
+
+
+  body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+
+
+
